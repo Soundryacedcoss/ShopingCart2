@@ -1,0 +1,16 @@
+.Footer{
+    display: flex;
+    column-gap: 15%;
+    /* background-color: white; */
+    padding-top: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    background-color: #c5aa6a;
+    color: black;
+}
+@media screen and (max-width: 470px) {
+    div.Footer{
+       display: block;
+       text-align: center;
+     }
+   }
